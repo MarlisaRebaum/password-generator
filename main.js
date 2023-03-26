@@ -17,7 +17,7 @@ const randomFunc = {
 	symbol: getRandomSymbol
 };
 
-// Add event listenr to option div's so entire div can be clicked, not just checkbox
+// Add event listener to option div's so entire div can be clicked, not just checkbox
 optionDiv.forEach(function(div) {
   div.addEventListener('click', function() {
     const checkbox = div.querySelector('.checkbox');
